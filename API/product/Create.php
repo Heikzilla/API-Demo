@@ -46,6 +46,6 @@ if (
 }else{ //incomplete Data
     http_response_code(400);
 
-    echo json_encode("message" => "Fehler beim eintragen des Produktes");
+    echo json_encode(array("message" => "Fehler beim eintragen des Produktes"));
 }
 ?>
