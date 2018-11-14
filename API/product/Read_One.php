@@ -49,7 +49,7 @@ if ($product->name != null){
     //set response code: 400 Not Found
     http_response_code(404);
 
-    echo json_encode(array("message" => "Produkt existiert nicht."))
+    echo json_encode(array("message" => "Produkt existiert nicht."));
 }
 
 ?>
